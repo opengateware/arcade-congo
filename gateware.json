@@ -3,7 +3,7 @@
     "displayName": "congo",
     "description": "Congo Bongo Compatible Gateware IP Core for FPGA",
     "author": "boogermann",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "GPL-3.0-or-later",
     "repository": "https://github.com/opengateware/arcade-congo",
     "keywords": [

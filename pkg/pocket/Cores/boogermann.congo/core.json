@@ -9,8 +9,8 @@
             "description": "Congo Bongo",
             "author": "boogermann",
             "url": "https://github.com/opengateware/arcade-congo",
-            "version": "0.1.0",
-            "date_release": "2022-11-14"
+            "version": "<%- VERSION %>",
+            "date_release": "<%- RELEASE_DATE %>"
         },
         "framework": {
             "target_product": "Analogue Pocket",
