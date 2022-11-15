@@ -1,6 +1,6 @@
 #!/usr/bin/pwsh -Command
 
-$coreName = "bankpanic"
+$coreName = "congo"
 $currentPath = $(Get-Item $($MyInvocation.MyCommand.Path)).DirectoryName
 $fileNames = Get-ChildItem -Path "$currentPath\..\xml" -Recurse -Include *.mra
 
