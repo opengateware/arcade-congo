@@ -1,0 +1,29 @@
+{
+    "input": {
+        "magic": "APF_VER_1",
+        "controllers": [
+            {
+                "type": "default",
+                "buttons": 1,
+                "ways": 8,
+                "mappings": [
+                    {
+                        "id": 0,
+                        "name": "Jump",
+                        "key": "pad_btn_b"
+                    },
+                    {
+                        "id": 20,
+                        "name": "Start",
+                        "key": "pad_btn_start"
+                    },
+                    {
+                        "id": 21,
+                        "name": "Coin",
+                        "key": "pad_btn_select"
+                    }
+                ]
+            }
+        ]
+    }
+}

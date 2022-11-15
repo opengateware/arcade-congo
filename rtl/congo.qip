@@ -1,0 +1,15 @@
+# ==============================================================================
+# RTL
+# ==============================================================================
+set_global_assignment -name VHDL_FILE          [file join $::quartus(qip_path) "samples_player.vhd"]
+set_global_assignment -name VHDL_FILE          [file join $::quartus(qip_path) "dpram.vhd"]
+set_global_assignment -name VHDL_FILE          [file join $::quartus(qip_path) "gen_ram.vhd"]
+set_global_assignment -name VHDL_FILE          [file join $::quartus(qip_path) "congo_sound_board.vhd"]
+set_global_assignment -name VHDL_FILE          [file join $::quartus(qip_path) "congo_samples.vhd"]
+set_global_assignment -name VHDL_FILE          [file join $::quartus(qip_path) "congo_bongo.vhd"]
+
+# ==============================================================================
+# MODULES
+# ==============================================================================
+set_global_assignment -name QIP_FILE           [file join $::quartus(qip_path) "../modules/cpu-t80/index.qip"]
+set_global_assignment -name QIP_FILE           [file join $::quartus(qip_path) "../modules/sound-sn76489/index.qip"]

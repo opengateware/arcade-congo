@@ -1,0 +1,36 @@
+{
+    "name": "congo",
+    "displayName": "congo",
+    "description": "Congo Bongo Compatible Gateware IP Core for FPGA",
+    "author": "boogermann",
+    "version": "0.1.0",
+    "license": "GPL-3.0-or-later",
+    "repository": "https://github.com/opengateware/arcade-congo",
+    "keywords": [
+        "ecosystem:gateman"
+    ],
+    "scripts": {
+        "verilator": "echo \"Error: no simulation specified\" && exit 1",
+        "build:pocket": "quartus_sh --flow compile projects/congo_pocket.qpf",
+        "program:pocket": "quartus_pgm -m jtag -c 1 -o \"p;projects/output_files/congo_pocket.sof@1\""
+    },
+    "hardware": {
+        "id": "congo-bongo",
+        "name": "Congo Bongo",
+        "year": 1983,
+        "manufacturer": "Sega"
+    },
+    "platforms": {
+        "pocket": "1.2.0"
+    },
+    "modules": {
+        "cpu-t80": "3.5.1",
+        "general-sync_fifo": "0.1.0",
+        "pocket-dataloader": "1.0.0",
+        "pocket-i2s": "1.0.0",
+        "pocket-joypad": "1.0.0",
+        "pocket-video": "1.0.0",
+        "video-scanlines": "0.2.0",
+        "sound-sn76489": "1.9.0"
+    }
+}
